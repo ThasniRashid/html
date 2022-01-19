@@ -1,0 +1,28 @@
+<html>
+<body>
+<script>
+var first=0,second=1;
+a=parseInt(prompt("Enter the limit: "));
+if(a<0)
+{
+	document.write("The given number is zero");
+}
+if(a>=1)
+{
+	document.write("<br>",first);
+}
+if(a>=2)
+{
+	document.write("<br>",second);
+}
+for(i=1;i<a;i++)
+{
+	document.write("<br>",first+second);
+	temp=first;
+	first=second;
+	second=temp+second;
+}
+
+</script>
+</body>
+</html>
