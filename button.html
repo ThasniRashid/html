@@ -3,19 +3,20 @@
 <script>
 function replace()
 {
-	document.getElementById('myImage').src='bird.jpg';
+	document.getElementById('myImage').src='download1.jpg'
 }
 function back()
 {
-	document.getElementById('myImage').src='birdd.jpg';
+	document.getElementById('myImage').src='download2.jpg'
 }
 </script>
-<head>
-<body align="center" style="background-color:lightbliue">
+</head> 
+<body align="center" style="background-color:lightblue">
 <h1>Swapping image with javascript</h1>
 <br>
-<img id="myImage" src="birdd.jpg" style='width:510px; height: 510px">
+<img id="myImage" src="download2.jpg" style="width:600px;height:600px" alt="img"/>
 <br><br>
+<button onclick="replace()">Replace</button>
 <button onclick="back()">Back</button>
 </body>
 </html>
